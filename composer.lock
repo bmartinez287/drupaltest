@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfb162f3688d7cdf26309eb4a328f5bf",
+    "content-hash": "5dfd2e0870249049ec6a4645506f35f1",
     "packages": [
         {
             "name": "acquia/blt",
@@ -114,6 +114,43 @@
                 "testing"
             ],
             "time": "2020-04-15T16:48:04+00:00"
+        },
+        {
+            "name": "acquia/blt-tugboat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acquia/blt-tugboat.git",
+                "reference": "ca1604b23fb924cfdd60ee140fbd7379750e59e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/blt-tugboat/zipball/ca1604b23fb924cfdd60ee140fbd7379750e59e6",
+                "reference": "ca1604b23fb924cfdd60ee140fbd7379750e59e6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\BltTugboat\\": "./src/"
+                },
+                "classmap": [
+                    "src/Blt/Plugin/EnvironmentDetector/TugboatDetector.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Acquia Engineering",
+                    "homepage": "https://www.acquia.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Tugboat integration for Acquia BLT",
+            "time": "2019-07-19T16:26:26+00:00"
         },
         {
             "name": "acquia/drupal-spec-tool",
@@ -870,7 +907,7 @@
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:fengyuanchen/cropper.git",
+                "url": "https://github.com/fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -15369,6 +15406,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "acquia/blt-tugboat": 20,
         "acquia/lightning": 20,
         "drupal/layout_builder_st": 15,
         "acquia/blt-require-dev": 20
